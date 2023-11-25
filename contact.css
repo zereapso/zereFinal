@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    background-image: url('index3.avif'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    overflow: hidden;
+}
+
+.container{
+    background-image: url('Images/bg.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1000px!important;
+}
+p{
+    font-size: 12px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+}
+.bg-primary{
+    background-color: #01a8d2 !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif!important;
+
+}
+.form-control {
+    height: 36px;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.contactForm .form-control {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+}
+
+
+.form-control:focus,.form-control:active {
+    border-color: #01a8d2 !important;
+}
+.form-label {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.btn.btn-primary {
+    background: #01a8d2 !important;
+    border-color: #01a8d2 !important;
+    color: #fff;
+    width: 100px;
+    border-radius: 0!important;
+    
+}
+.btn.btn-primary:hover{
+    background-color: #01a8d2!important;
+}
+
+.bi{
+    font-size: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%!important;
+        padding-bottom: 207px!important;
+    }
+  }

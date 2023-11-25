@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <section class="slider-container">
+      <div class="slider-images">
+        <div class="slider-img">
+          <img src="Images/1.jpg" alt="1" />
+          <h1>Knife</h1>
+          <div class="details">
+            <h2>Hunting knife or ax</h2>
+            <p>Using a knife as an ax to cut trees for a fire is difficult, but using an ax as a knife is as easy as shelling pears. Therefore, we would advise you to think about taking an ax with you!</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/2.jpg" alt="2" />
+          <h1>Flint</h1>
+          <div class="details">
+            <h2>Flint</h2>
+            <p>Of course, on a desert island you need something to make fire. Some people talk about matches, others about a lighter. But matches can break or get wet, and the lighter can run out of gas. Therefore, flint and steel would be an ideal option!</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/3.jpg" alt="3" />
+          <h1>Raincoat</h1>
+          <div class="details">
+            <h2>Raincoat tent</h2>
+            <p>This is a universal thing that will save you from the rain in any case. It can be used as a raincoat, which is not surprising, and as a tent! This is an excellent military item that has saved more than one military man or hunter from colds, insects and other troubles.</p>
+          </div>
+        </div>
+        <div class="slider-img active">
+          <img src="Images/4.jpg" alt="4" />
+          <h1>Fishing</h1>
+          <div class="details">
+            <h2>Fishing gear</h2>
+            <p>Of course, you could take a fishing rod to the island, but a much better choice would be a net that works great during high and low tides, or even better a harpoon, which can also be used as a spear.</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/5.jpg" alt="5" />
+          <h1>filter</h1>
+          <div class="details">
+            <h2>Water filter</h2>
+            <p>As you know, the sea is salty, so drinking sea water is not only not tasty, but simply disgusting and, moreover, harmful.
+              Therefore, a great idea for the fifth thing you need on a desert island is a filter!</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/6.png" alt="6" />
+          <h1>Kit</h1>
+          <div class="details">
+            <h2>First aid kit</h2>
+            <p>It is needed to disinfect any unexpected injury so that I do not die from infection on the island before the rescuers arrive.</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/7.jpg" alt="7" />
+          <h1>Flare</h1>
+          <div class="details">
+            <h2>Flare gun</h2>
+            <p>In case a ship or plane flies by somewhere in the distance. After all, as we remember, saving drowning people is the work of the drowning people themselves.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/jQuery.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
